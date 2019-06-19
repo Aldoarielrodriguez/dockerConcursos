@@ -1,0 +1,9 @@
+copiar el identificador del contenedor de nombre mysql:5.7
+$docker ps 
+
+
+ingresar al contenedor 
+$docker exec -it #identificador# /bin/bash
+
+ejecuto instruccion para importar el (*.sql) a la DB "concursos"
+$mysql -uroot -proot concursos</home/var/concursos.sql
